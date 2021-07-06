@@ -17,7 +17,7 @@
   "scripts": {
     "build": "tsc",
     "lint": "prettier --check \"src/**/*.ts\"",
-    "prepare": "yarn build",
+    "prepare": "npm run build",
     "test": "jest"
   },
   "files": [
